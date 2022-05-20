@@ -15,7 +15,7 @@ const Header = () => (
     </h3>
     <h3
       css={{
-        color: "black",,
+        color: "black",
         //position: "relative",
       }}>
       <a href='google.com'>link2</a>

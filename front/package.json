@@ -1,10 +1,12 @@
 {
   "name": "procon2022-homework-front",
   "dependencies": {
+    "@emotion/react": "^11.9.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "@vitejs/plugin-react": "^1.3.2",

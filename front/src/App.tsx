@@ -1,6 +1,8 @@
+import Index from "./routes/Index"
+
 const App = () => (
   <>
-    <h1>Hello.</h1>
+    <Index />
   </>
 )
 

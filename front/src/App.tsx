@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Index from "./routes/Index"
+import Index from "~/routes/Index"
 
 const App = () => (
   <BrowserRouter>

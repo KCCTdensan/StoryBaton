@@ -1,4 +1,5 @@
 const nextConfig = {
+  reactStrictMode: true,
   experimental: {
     emotion: true,
   },

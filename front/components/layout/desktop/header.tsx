@@ -1,10 +1,12 @@
+import Logo from "~/components/element/logo"
+
 const Header = () => (
-  <>
+  <div>
     <h1
       css={{
         color: "red",
       }}>
-      Story Baton
+      <Logo />
     </h1>
     <h3
       css={{
@@ -20,7 +22,7 @@ const Header = () => (
       }}>
       <a href='google.com'>link2</a>
     </h3>
-  </>
+  </div>
 )
 
 export default Header

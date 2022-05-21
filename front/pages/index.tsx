@@ -1,4 +1,4 @@
-import Layout from "~/components/layouts/layout"
+import Layout from "~/components/layout/default"
 
 const Index = () => (
   <Layout>

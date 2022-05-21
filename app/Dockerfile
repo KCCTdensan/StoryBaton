@@ -1,0 +1,14 @@
+FROM golang:1.18-alpine as builder
+WORKDIR /work
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN go mod download
+ARG CGO_ENABLED=0
+ARG GOOS=linux
+RUN go build -o main -ldflags '-s -w'
+
+FROM alpine as runner
+COPY --from=builder /work/main /app/main
+ENTRYPOINT ["/app/main"]
+CMD []

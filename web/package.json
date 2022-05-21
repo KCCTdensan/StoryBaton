@@ -28,6 +28,5 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
-  },
-  "type": "module"
+  }
 }
